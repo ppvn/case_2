@@ -1,8 +1,10 @@
-import random
-
 # UniPil case#2
-# Developer: General Popov, Egor A.
-b = int(input('Выделено бюджета на 50 штатов (от 1 до 5 млн): '))
+# Developer: student Popov, Egor A.
+
+import random
+import locals
+
+b = int(input(locals.Budget))
 
 
 def otkat(x):
