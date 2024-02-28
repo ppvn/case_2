@@ -12,6 +12,14 @@ def fin(x, i):
 def otkat(x):
     return x * 0.97
 
+def tax(b):
+    a = random.randint(1, 10)
+    if a == 1:
+        business = 100000
+        age = random.randint(20, 40)
+        income = business * age
+
+
 
 for state in range(50, 0, -1):
     b = fin(b, state)
